@@ -77,6 +77,15 @@ if (iconMenu != null) {
 		}
 	});
 };
+
+let mList = document.querySelector("#menu-list");
+if (mList != null) {
+	mList.addEventListener("click", function (e) {
+		menu_close()
+		body_lock_remove()
+	});
+};
+
 function menu_close() {
 	let iconMenu = document.querySelector(".icon-menu");
 	let menuBody = document.querySelector(".menu__body");
@@ -790,3 +799,14 @@ animate({
 			Element.prototype.msMatchesSelector;
 	}
 })();
+
+
+// Galleries
+lightGallery(document.getElementById('works'), {
+    selector: '.works__loop'
+});
+
+lightGallery(document.getElementById('gallery'), {
+    selector: '.gallery__loop'
+});
+
