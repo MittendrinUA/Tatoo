@@ -613,6 +613,10 @@ body {
 	@media (max-width:$md3+px){
 		flex-direction: column;
 	}
+	@media (max-width:$md4+px){
+		padding: 60px 45px 50px;  
+	}
+
 	&__about,
 	&__form {
 		flex: 0 1 50%;

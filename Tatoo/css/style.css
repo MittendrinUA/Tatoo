@@ -3332,6 +3332,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     font-size: 18px;
   }
 
+  .contact {
+    padding: 60px 45px 50px;
+  }
+
   .contact__title h2 {
     padding: 25px;
   }
